@@ -4,6 +4,7 @@ import api from './services/api';
 import "./styles.css";
 
 function App() {
+  const [contador, setContador] = useState(0);
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
